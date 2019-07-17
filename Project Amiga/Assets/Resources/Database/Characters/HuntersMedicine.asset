@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8dba2702e367ca1429e674482071764e, type: 3}
+  m_Name: HuntersMedicine
+  m_EditorClassIdentifier: 
+  name: Hunter's Medicine
+  picture: {fileID: 21300000, guid: 45532e3a0e1216b488e87db14d179ea4, type: 3}
+  description: Revives a fallen ally, granting them 1 HP and 30 Block.
+  manaCost: 2
+  cooldown: 0
+  cooldownType: 0
+  soundsForPlay:
+  - {fileID: 8300000, guid: 20ab7aafb315b984fa9f67e562dcdba2, type: 3}
+  values: 
+  abilityStepsWithTargetingData:
+  - abilityStep: {fileID: 11400000, guid: d4840eac8730eda439ae337ebb99053d, type: 2}
+    targetingData:
+      targetingType: 0
+      useTargetsFromStepNumber: 0
+      onlySelf: 0
+      targetAlignment: 1
+      targets: 1
+      numberOfTargets: 0
+      selfIncluded: 0
+      canTargetDead: 0
+      textForChoosing: Choose an ally.
+  - abilityStep: {fileID: 11400000, guid: bd3ac627d5d38b64684be5cd0419ebdf, type: 2}
+    targetingData:
+      targetingType: 1
+      useTargetsFromStepNumber: 0
+      onlySelf: 0
+      targetAlignment: 0
+      targets: 0
+      numberOfTargets: 0
+      selfIncluded: 0
+      canTargetDead: 0
+      textForChoosing: 

@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1dc134bfa08b4894e92f56ac1085fe3b, type: 3}
+  m_Name: Devil
+  m_EditorClassIdentifier: 
+  name: Devil
+  model: {fileID: 1914622905974046, guid: 509774e165bd1784da7e37b6dcddc54a, type: 2}
+  health: 75
+  armor: 0.1
+  magicResist: 0
+  armorPenetration: 0
+  magicPenetration: 0
+  criticalChance: 0
+  rawDamageMultiplier: 1
+  fluctuateStartingHealth: 1
+  startingHealthFluctuationAmount: 0.15
+  attackSounds:
+  - {fileID: 8300000, guid: bb35b6cedcaf3254b8045af8916753f0, type: 3}
+  - {fileID: 8300000, guid: 37ece129ed2df4146b550a7ab2523b5b, type: 3}
+  - {fileID: 8300000, guid: e6fc25a51ecb38d4687a90ef83db1543, type: 3}
+  - {fileID: 8300000, guid: 4049502164a8d8f43bd0b375d30b5a1d, type: 3}
+  deathSounds:
+  - {fileID: 8300000, guid: f7a614c1f2b34324aaeb9c69a2a4a5c9, type: 3}
+  - {fileID: 8300000, guid: aac1b327d4921f94db83dd221c3c43b6, type: 3}
+  abilities:
+  - ability: {fileID: 11400000, guid: 838f285d36e414540aa0aa45f1439a04, type: 2}
+    chance: 4
+  - ability: {fileID: 11400000, guid: d92ff89c69fbd2b409b3a4a6b2f54a6c, type: 2}
+    chance: 2
+  - ability: {fileID: 11400000, guid: d7c94d00f4d2a01449735613d142869e, type: 2}
+    chance: 1

@@ -1,0 +1,54 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b865f0ece5dd84c4e81d653442d6007a, type: 3}
+  m_Name: Gann_Strike
+  m_EditorClassIdentifier: 
+  name: Strike
+  soundsForPlay:
+  - {fileID: 8300000, guid: e004bf3f3f1449146989c715944db88f, type: 3}
+  targData:
+  - onlySelf: 0
+    targetAlignment: 0
+    targets: 0
+    numberOfTargets: 0
+    selfIncluded: 0
+    canTargetDead: 0
+    textForTargeting: 
+  abilitySteps:
+  - step: {fileID: 11400000, guid: 0bff03c01f0ba754d85bdc8a754e94dc, type: 2}
+    targeting: 0
+  description: Strikes enemy for $0$ $1$ damage.
+  picture: {fileID: 21300000, guid: 18198113a92b6c040bdd917304945702, type: 3}
+  type: 1
+  rarity: 0
+  manaCost: 1
+  tooltip: 
+  stepValue:
+  - descriptionTag: 0
+    stepIndex: 0
+    valueIndex: 0
+  - descriptionTag: 1
+    stepIndex: 0
+    valueIndex: 1
+  values: []
+  abilityStepsWithTargetingData:
+  - abilityStep: {fileID: 11400000, guid: 0bff03c01f0ba754d85bdc8a754e94dc, type: 2}
+    targetingData:
+      targetingType: 0
+      useTargetsFromStepNumber: 0
+      onlySelf: 0
+      targetAlignment: 2
+      targets: 1
+      numberOfTargets: 0
+      selfIncluded: 0
+      canTargetDead: 0
+      textForChoosing: Target an enemy.

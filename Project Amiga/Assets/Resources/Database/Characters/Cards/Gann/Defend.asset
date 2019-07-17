@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b865f0ece5dd84c4e81d653442d6007a, type: 3}
+  m_Name: Defend
+  m_EditorClassIdentifier: 
+  name: Block
+  picture: {fileID: 21300000, guid: 68bb8854ef0b31f40b11e583aa74c465, type: 3}
+  description: Blocks 12 damage.
+  type: 2
+  rarity: 0
+  manaCost: 1
+  soundsForPlay:
+  - {fileID: 8300000, guid: a46226354ce38cc40a689ba5e6917014, type: 3}
+  values: 
+  abilityStepsWithTargetingData:
+  - abilityStep: {fileID: 11400000, guid: cabe389ee18b9f54c8976374ed4a19a5, type: 2}
+    targetingData:
+      targetingType: 0
+      useTargetsFromStepNumber: 0
+      onlySelf: 0
+      targetAlignment: 1
+      targets: 1
+      numberOfTargets: 0
+      selfIncluded: 1
+      textForChoosing: 

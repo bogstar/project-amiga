@@ -1,0 +1,74 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b865f0ece5dd84c4e81d653442d6007a, type: 3}
+  m_Name: Cripple
+  m_EditorClassIdentifier: 
+  name: Cripple
+  soundsForPlay:
+  - {fileID: 8300000, guid: ac4dad1dffa1f974f8d6f001b78da18f, type: 3}
+  targData: []
+  abilitySteps: []
+  description: Damages enemy for $0$ $1$ damage and lowers their damage output by
+    15% and bleeds them for 4 dmg for $2$ turn$3$.
+  picture: {fileID: 21300000, guid: a5994fcc7361db543bc8477dfb342e35, type: 3}
+  type: 2
+  rarity: 0
+  manaCost: 2
+  tooltip: 
+  stepValue:
+  - descriptionTag: 0
+    stepIndex: 2
+    valueIndex: 0
+  - descriptionTag: 1
+    stepIndex: 2
+    valueIndex: 1
+  - descriptionTag: 2
+    stepIndex: 0
+    valueIndex: 0
+  - descriptionTag: 3
+    stepIndex: 0
+    valueIndex: 1
+  values: []
+  abilityStepsWithTargetingData:
+  - abilityStep: {fileID: 11400000, guid: 93c767835cb13584abb28b8c0d4c8408, type: 2}
+    targetingData:
+      targetingType: 0
+      useTargetsFromStepNumber: 0
+      onlySelf: 0
+      targetAlignment: 2
+      targets: 1
+      numberOfTargets: 0
+      selfIncluded: 0
+      canTargetDead: 0
+      textForChoosing: Choose a target.
+  - abilityStep: {fileID: 11400000, guid: c03842062d3dfce4da51ee68a1ceec0f, type: 2}
+    targetingData:
+      targetingType: 1
+      useTargetsFromStepNumber: 0
+      onlySelf: 0
+      targetAlignment: 0
+      targets: 0
+      numberOfTargets: 0
+      selfIncluded: 0
+      canTargetDead: 0
+      textForChoosing: 
+  - abilityStep: {fileID: 11400000, guid: be7c67fe92973d444b5077e77bf60d39, type: 2}
+    targetingData:
+      targetingType: 1
+      useTargetsFromStepNumber: 0
+      onlySelf: 0
+      targetAlignment: 0
+      targets: 0
+      numberOfTargets: 0
+      selfIncluded: 0
+      canTargetDead: 0
+      textForChoosing: 

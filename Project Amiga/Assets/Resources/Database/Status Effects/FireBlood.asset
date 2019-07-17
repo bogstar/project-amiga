@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 57fcba9c47f489b46ac5478bb8e163dd, type: 3}
+  m_Name: FireBlood
+  m_EditorClassIdentifier: 
+  name: Fire Blood
+  icon: {fileID: 21300000, guid: 98ae4fc099ac96344a72f3bb44acaf21, type: 3}
+  duration: 1
+  type: 4
+  behaviour:
+  - {fileID: 11400000, guid: 3160dd83c5e5d194dad2665af4bcbb82, type: 2}

@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1dc134bfa08b4894e92f56ac1085fe3b, type: 3}
+  m_Name: LargeDevil
+  m_EditorClassIdentifier: 
+  name: Large Devil
+  model: {fileID: 1389468682335880, guid: e66f0a3f332e7274991e518a68f99549, type: 2}
+  health: 150
+  armor: 0.3
+  magicResist: 0.1
+  armorPenetration: 0.2
+  magicPenetration: 0.2
+  criticalChance: 0
+  rawDamageMultiplier: 1
+  fluctuateStartingHealth: 1
+  startingHealthFluctuationAmount: 0.15
+  attackSounds:
+  - {fileID: 8300000, guid: ea0527d8e3eaec94c85d51569bb16bbe, type: 3}
+  - {fileID: 8300000, guid: 0d29c10526c003b459200bf70185de91, type: 3}
+  - {fileID: 8300000, guid: 8e075d4c25dd97c4bb43051ed8557322, type: 3}
+  - {fileID: 8300000, guid: e0d0b222956f218498cededd77b4960c, type: 3}
+  deathSounds:
+  - {fileID: 8300000, guid: fbd21117097ee2c418285939ec3fabbc, type: 3}
+  abilities:
+  - ability: {fileID: 11400000, guid: dceae6114db89fd4f961b31838e6cc3f, type: 2}
+    chance: 1
+  - ability: {fileID: 11400000, guid: 23221ee8a3b5df94fa02b40b0ca75bb8, type: 2}
+    chance: 1
+  - ability: {fileID: 11400000, guid: 61160d71b06e947498d5a9be1e44d65f, type: 2}
+    chance: 2

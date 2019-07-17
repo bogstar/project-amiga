@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8dba2702e367ca1429e674482071764e, type: 3}
+  m_Name: HeartOfDarkness
+  m_EditorClassIdentifier: 
+  name: Heart of Darkness
+  picture: {fileID: 21300000, guid: a20200bef6b0a174f84b354d35ca6ebf, type: 3}
+  description: Protects both party members from damage and negative status effects
+    for 1 turn.
+  manaCost: 0
+  cooldown: 1
+  cooldownType: 0
+  soundsForPlay:
+  - {fileID: 8300000, guid: 20ab7aafb315b984fa9f67e562dcdba2, type: 3}
+  values: 
+  abilityStepsWithTargetingData:
+  - abilityStep: {fileID: 11400000, guid: f770ca4324ce74948974985bda9a75cd, type: 2}
+    targetingData:
+      targetingType: 0
+      useTargetsFromStepNumber: 0
+      onlySelf: 0
+      targetAlignment: 1
+      targets: 4
+      numberOfTargets: 0
+      selfIncluded: 1
+      textForChoosing: 

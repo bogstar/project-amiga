@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7cf6e7d3e887d84a835349853381cc6, type: 3}
+  m_Name: Black Gem
+  m_EditorClassIdentifier: 
+  name: Black Gem
+  description: Removes the card pair from your deck.
+  image: {fileID: 21300000, guid: 29b7af179be2d054891d167886589b41, type: 3}
+  dimensions: {x: 1, y: 1}
+  color: 2

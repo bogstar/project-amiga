@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1dc134bfa08b4894e92f56ac1085fe3b, type: 3}
+  m_Name: Weirdo
+  m_EditorClassIdentifier: 
+  name: Weirdo
+  model: {fileID: 6172823973539686712, guid: db21d2c7142ad714a909e2ed6559689f, type: 3}
+  health: 25
+  armor: 0
+  magicResist: 0
+  armorPenetration: 0
+  magicPenetration: 0
+  criticalChance: 0
+  rawDamageMultiplier: 1
+  fluctuateStartingHealth: 1
+  startingHealthFluctuationAmount: 0.15
+  attackSounds:
+  - {fileID: 8300000, guid: 923db8284f8a33d4595223e51c923a76, type: 3}
+  deathSounds:
+  - {fileID: 8300000, guid: f332abbfce2541144a79c99f32b6964b, type: 3}
+  abilities:
+  - ability: {fileID: 11400000, guid: 7218e0752bd42fb43af83a812b0d421d, type: 2}
+    chance: 1

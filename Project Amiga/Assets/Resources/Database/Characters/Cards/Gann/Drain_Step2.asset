@@ -1,0 +1,16 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e18465a37096eb146960199c350edef9, type: 3}
+  m_Name: Drain_Step2
+  m_EditorClassIdentifier: 
+  particleEffectPrefab: {fileID: 1161821561448952, guid: 3c6e3d101ee963f45a6a62b4180e01b1,
+    type: 3}

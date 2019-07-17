@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b027fb64487cdb54884a2d892ede6afd, type: 3}
+  m_Name: Devil_SerratedStrike
+  m_EditorClassIdentifier: 
+  name: 
+  soundsForPlay:
+  - {fileID: 8300000, guid: 816ad486b2bb8304786e708c5f8c2b1d, type: 3}
+  targData: []
+  abilitySteps: []
+  type: 1
+  animatorTrigger: Attack
+  abilityStepsWithTargetingData:
+  - abilityStep: {fileID: 11400000, guid: b57f5f697d07b67479a1d3830f41655a, type: 2}
+    targetingData:
+      targetingType: 0
+      useTargetsFromStepNumber: 0
+      onlySelf: 0
+      targetAlignment: 2
+      targets: 1
+      numberOfTargets: 0
+      selfIncluded: 0
+      canTargetDead: 0
+  - abilityStep: {fileID: 11400000, guid: ea75e352698830147a5f185657f4884f, type: 2}
+    targetingData:
+      targetingType: 1
+      useTargetsFromStepNumber: 0
+      onlySelf: 0
+      targetAlignment: 0
+      targets: 0
+      numberOfTargets: 0
+      selfIncluded: 0
+      canTargetDead: 0

@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cff05d4fb4a36d74aa50fec206bf3dde, type: 3}
+  m_Name: BasicShoes
+  m_EditorClassIdentifier: 
+  name: Basic Shoes
+  description: Basic shoes.
+  image: {fileID: 21300000, guid: 2c569e4cfcf5fca4bbe989716df418cc, type: 3}
+  dimensions: {x: 1, y: 2}
+  wearers:
+  - {fileID: 11400000, guid: d25a59b9a946ac645be553fee518d53e, type: 2}
+  - {fileID: 11400000, guid: 1086dfa74a819264682975f3a5f6efa2, type: 2}
+  slot: 2
+  modifiers: []
+  socketNumber: 0
+  gemCardPairs: []

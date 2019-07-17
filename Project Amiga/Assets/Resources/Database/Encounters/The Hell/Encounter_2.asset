@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8d689d4eda1b81049bc622711acd3c9f, type: 3}
+  m_Name: Encounter_2
+  m_EditorClassIdentifier: 
+  enemies:
+  - {fileID: 11400000, guid: 6e8ca5c58b62b7d49a05e10ee287d534, type: 2}
+  - {fileID: 11400000, guid: 6e8ca5c58b62b7d49a05e10ee287d534, type: 2}
+  - {fileID: 11400000, guid: ad6afbbce8370ae4bb8b715e2db7879a, type: 2}
+  - {fileID: 11400000, guid: 6e8ca5c58b62b7d49a05e10ee287d534, type: 2}
+  drops:
+  - {fileID: 11400000, guid: 59c837dfef8a4a449a714138d93305b4, type: 2}
+  - {fileID: 11400000, guid: dcc0881f2d604e54fa9fe3a99dd03d8c, type: 2}
+  - {fileID: 11400000, guid: d56c10d4c2407f74a91df5f97ba50a05, type: 2}
+  - {fileID: 11400000, guid: c4712607c9ca2f445922be79ffdfe12d, type: 2}
+  - {fileID: 11400000, guid: abac34b3e6b5c25418979a1deb152621, type: 2}

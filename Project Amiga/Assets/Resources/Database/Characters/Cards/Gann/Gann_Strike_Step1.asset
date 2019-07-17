@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 163c45f8424a2a84dafb99a507734b13, type: 3}
+  m_Name: Gann_Strike_Step1
+  m_EditorClassIdentifier: 
+  damageType: 2
+  damageTypePerc: 1
+  amount: 12
+  canCriticallyStrike: 1
+  particleEffectPrefab: {fileID: 1488498850987618, guid: ec366a62e2c2bdc4f8ddbdac9d9b3296,
+    type: 3}
